@@ -8,10 +8,10 @@ The purpose of the challenge is to use cryptocurrencies data, categorize them to
 
 Prepocessing the data: It is crucial that we preprocess our data before feeding it into our model, as the quality of the data and the relevant information that can be gleaned from it directly influences the model's capacity to learn. During the preprocessing we need to deal with:
 
-- Null values
-- Missing values
-- Standardization: transform the values such that the mean of the values is 0 and the standard deviation is 1.
-- Handling Categorical Variables: Categorical variables are variables that are discrete rather than continuous in nature. For example, an item's color is a discrete variable, while its price is a continuous variable.
+- Standardization of the data
+-  - Null values
+-  - Missing values
+- Handling Categorical Variables: Categorize variables wether are discrete rather than continuous. 
 
 **Use of PCA (Principal Component Analysis)**. Principal Component Analysis (PCA) is a well-known unsupervised learning technique for reducing data dimensionality. It improves interpretability while reducing information loss at the same time. It aids in the discovery of the most important features in a dataset and facilitates the charting of data in 2D and 3D. PCA aids in the discovery of a series of linear combinations of variables.
 
